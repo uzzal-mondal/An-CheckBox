@@ -1,9 +1,11 @@
 Check Box
+
 1.	Checkbox are 2 type 
 # check 
 #unchecked.
 
 				XML
+
 2.	First of all I am creating a layout design.
 
 3.	Then first I selected a Text view
@@ -17,7 +19,8 @@ Check Box
 
 
 
-Main
+                             Main
+
 7.	Checkbox, text, button all of take a findview id.
 
 8.	Then listener adding to Button.
@@ -33,9 +36,11 @@ Main
 12.	We know that checkbox by default unchecked.
 
 
-13.	Now I am check to CheckBox. 
+13.	Now I am check to CheckBox.
 
-Important
+
+                             Important
+
 14.	First of all I want to create a condition and use to if condition.
 15.	 First checkbox will checked a method isChecked() – if(milkCb.isChecked)
 
@@ -53,3 +58,4 @@ Important
      Ex: StringBuilder.appeand(value+” ”+is order);
 
 21.	 textview with setText in stringBuilder
+22.	Textview er maddhoem setText show korbe.

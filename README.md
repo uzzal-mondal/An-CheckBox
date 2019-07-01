@@ -58,4 +58,4 @@ Check Box
      Ex: StringBuilder.appeand(value+” ”+is order);
 
 21.	 textview with setText in stringBuilder
-22.	Textview er maddhoem setText show korbe.
+22.	Textview create a setText with show Text 

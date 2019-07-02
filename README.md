@@ -1,6 +1,6 @@
-Check Box
+CheckBox_Android_Studio
 
-1.	Checkbox are 2 type 
+1.Checkbox are 2 type 
 # check 
 #unchecked.
 
@@ -59,3 +59,36 @@ Check Box
 
 21.	 textview with setText in stringBuilder
 22.	Textview create a setText with show Text 
+
+23. below to code in main activity
+   ch1 = findViewById(R.id.check1);
+        ch2 = findViewById(R.id.check2);
+        ch3 = findViewById(R.id.check3);
+        btn = findViewById(R.id.btnSubmit);
+        text = findViewById(R.id.textRes);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+               StringBuilder stringBuilder = new StringBuilder();
+               if (ch1.isChecked()){
+                   String value = ch1.getText().toString();
+                   stringBuilder.append(value+" is orderd"+"\n");
+               }
+
+               if (ch2.isChecked()){
+                   String value = ch2.getText().toString();
+                   stringBuilder.append(value+" is orderd"+"\n");
+               }
+
+               if (ch3.isChecked()){
+                  String value =  ch3.getText().toString();
+                  stringBuilder.append(value+" is orderd"+"\n");
+               }
+
+               text.setText(stringBuilder);
+
+            }
+        });
+
